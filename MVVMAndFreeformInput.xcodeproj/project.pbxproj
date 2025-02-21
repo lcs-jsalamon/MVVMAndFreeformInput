@@ -12,6 +12,7 @@
 		267DA5932D68E10A005BB235 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 267DA5892D68E10A005BB235 /* Preview Assets.xcassets */; };
 		267DA5942D68E10A005BB235 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 267DA58E2D68E10A005BB235 /* Assets.xcassets */; };
 		267DA5962D68E1BE005BB235 /* Power.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267DA5952D68E1BE005BB235 /* Power.swift */; };
+		267DA5982D68E24C005BB235 /* PowerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267DA5972D68E24C005BB235 /* PowerViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		267DA58E2D68E10A005BB235 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		267DA58F2D68E10A005BB235 /* MVVMAndFreeformInputApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMAndFreeformInputApp.swift; sourceTree = "<group>"; };
 		267DA5952D68E1BE005BB235 /* Power.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Power.swift; sourceTree = "<group>"; };
+		267DA5972D68E24C005BB235 /* PowerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -119,6 +121,7 @@
 		267DA58B2D68E10A005BB235 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				267DA5972D68E24C005BB235 /* PowerViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -287,6 +290,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				267DA5982D68E24C005BB235 /* PowerViewModel.swift in Sources */,
 				267DA5912D68E10A005BB235 /* PowerView.swift in Sources */,
 				267DA5962D68E1BE005BB235 /* Power.swift in Sources */,
 				267DA5922D68E10A005BB235 /* MVVMAndFreeformInputApp.swift in Sources */,
