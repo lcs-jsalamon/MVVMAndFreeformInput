@@ -11,6 +11,7 @@ import Foundation
 
 struct Power{
     //MARK: Stored Properties
+
     
     //base of the pwr
     var base: Double
