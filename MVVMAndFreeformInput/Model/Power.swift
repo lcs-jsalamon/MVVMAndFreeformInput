@@ -39,6 +39,11 @@ struct Power{
     // We will implement code that mimics this second example.
     var result: Double {
         
+        // Check for zero exponent
+        if exponent == 0 {
+            return 1.0
+        }
+        
         // Start by making the solution equal to 1
         var solution = 1.0
         
