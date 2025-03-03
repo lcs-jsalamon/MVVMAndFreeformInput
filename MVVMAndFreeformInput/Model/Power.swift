@@ -9,9 +9,11 @@ import Foundation
 
 //MODEL
 
-struct Power{
+struct Power: Identifiable{
     //MARK: Stored Properties
-
+    
+    //holds a unique identifier
+    let id = UUID()
     
     //base of the pwr
     var base: Double
